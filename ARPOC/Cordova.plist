@@ -24,6 +24,8 @@
 	<array/>
 	<key>Plugins</key>
 	<dict>
+		<key>ARPOC</key>
+		<string>ARPOC</string>
 		<key>Logger</key>
 		<string>CDVLogger</string>
 		<key>Compass</key>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1DCD1815D91E640094F598 /* ARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1DCD1715D91E640094F598 /* ARCoordinate.m */; };
+		CC1DCD2015D952D90094F598 /* ARGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1DCD1F15D952D90094F598 /* ARGeoCoordinate.m */; };
 		CC7EDD6E15D28BA800423A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7EDD6D15D28BA800423A6B /* Foundation.framework */; };
 		CC7EDD7015D28BA800423A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7EDD6F15D28BA800423A6B /* UIKit.framework */; };
 		CC7EDD7215D28BA800423A6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7EDD7115D28BA800423A6B /* CoreGraphics.framework */; };
@@ -37,9 +39,17 @@
 		CC7EDDB615D28BA800423A6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7EDDB515D28BA800423A6B /* AppDelegate.m */; };
 		CC7EDDB915D28BA800423A6B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7EDDB815D28BA800423A6B /* MainViewController.m */; };
 		CC7EDDBB15D28BA800423A6B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7EDDBA15D28BA800423A6B /* MainViewController.xib */; };
+		CC7EDDC915D299B900423A6B /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7EDDC715D299B900423A6B /* CameraViewController.m */; };
+		CC7EDDCA15D299B900423A6B /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7EDDC815D299B900423A6B /* CameraViewController.xib */; };
+		CC7EDDD215D3962600423A6B /* www in Resources */ = {isa = PBXBuildFile; fileRef = CC7EDDD115D3962600423A6B /* www */; };
+		CC7EDDD515D39ADB00423A6B /* ARPOC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7EDDD415D39ADB00423A6B /* ARPOC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC1DCD1615D91E640094F598 /* ARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoordinate.h; sourceTree = "<group>"; };
+		CC1DCD1715D91E640094F598 /* ARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoordinate.m; sourceTree = "<group>"; };
+		CC1DCD1E15D952D90094F598 /* ARGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGeoCoordinate.h; sourceTree = "<group>"; };
+		CC1DCD1F15D952D90094F598 /* ARGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGeoCoordinate.m; sourceTree = "<group>"; };
 		CC7EDD6915D28BA800423A6B /* ARPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7EDD6D15D28BA800423A6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC7EDD6F15D28BA800423A6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,10 +64,10 @@
 		CC7EDD8115D28BA800423A6B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CC7EDD8315D28BA800423A6B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		CC7EDD8515D28BA800423A6B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		CC7EDD8915D28BA800423A6B /* ARPOC-Info.plist */ = {isa = PBXFileReference; path = "ARPOC-Info.plist"; sourceTree = "<group>"; };
+		CC7EDD8915D28BA800423A6B /* ARPOC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARPOC-Info.plist"; sourceTree = "<group>"; };
 		CC7EDD8B15D28BA800423A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC7EDD8D15D28BA800423A6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC7EDD8F15D28BA800423A6B /* ARPOC-Prefix.pch */ = {isa = PBXFileReference; path = "ARPOC-Prefix.pch"; sourceTree = "<group>"; };
+		CC7EDD8F15D28BA800423A6B /* ARPOC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARPOC-Prefix.pch"; sourceTree = "<group>"; };
 		CC7EDD9015D28BA800423A6B /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		CC7EDD9515D28BA800423A6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CC7EDD9915D28BA800423A6B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +80,19 @@
 		CC7EDDAD15D28BA800423A6B /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		CC7EDDAF15D28BA800423A6B /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		CC7EDDB115D28BA800423A6B /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		CC7EDDB415D28BA800423A6B /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		CC7EDDB415D28BA800423A6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		CC7EDDB515D28BA800423A6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		CC7EDDB715D28BA800423A6B /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		CC7EDDB715D28BA800423A6B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		CC7EDDB815D28BA800423A6B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		CC7EDDBA15D28BA800423A6B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		CC7EDDBD15D28BA800423A6B /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		CC7EDDBE15D28BA800423A6B /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		CC7EDDBD15D28BA800423A6B /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		CC7EDDBE15D28BA800423A6B /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		CC7EDDC615D299B900423A6B /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = Plugins/CameraViewController.h; sourceTree = "<group>"; };
+		CC7EDDC715D299B900423A6B /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = Plugins/CameraViewController.m; sourceTree = "<group>"; };
+		CC7EDDC815D299B900423A6B /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CameraViewController.xib; path = Plugins/CameraViewController.xib; sourceTree = "<group>"; };
+		CC7EDDD115D3962600423A6B /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		CC7EDDD315D39ADB00423A6B /* ARPOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARPOC.h; path = Plugins/ARPOC.h; sourceTree = "<group>"; };
+		CC7EDDD415D39ADB00423A6B /* ARPOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARPOC.m; path = Plugins/ARPOC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +130,7 @@
 		CC7EDD5B15D28BA700423A6B = {
 			isa = PBXGroup;
 			children = (
+				CC7EDDD115D3962600423A6B /* www */,
 				CC7EDD8715D28BA800423A6B /* ARPOC */,
 				CC7EDD6C15D28BA800423A6B /* Frameworks */,
 				CC7EDD6A15D28BA800423A6B /* Products */,
@@ -253,7 +270,16 @@
 		CC7EDDBC15D28BA800423A6B /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				CC1DCD1615D91E640094F598 /* ARCoordinate.h */,
+				CC1DCD1715D91E640094F598 /* ARCoordinate.m */,
 				CC7EDDBD15D28BA800423A6B /* README */,
+				CC7EDDC615D299B900423A6B /* CameraViewController.h */,
+				CC7EDDC715D299B900423A6B /* CameraViewController.m */,
+				CC7EDDC815D299B900423A6B /* CameraViewController.xib */,
+				CC1DCD1E15D952D90094F598 /* ARGeoCoordinate.h */,
+				CC1DCD1F15D952D90094F598 /* ARGeoCoordinate.m */,
+				CC7EDDD315D39ADB00423A6B /* ARPOC.h */,
+				CC7EDDD415D39ADB00423A6B /* ARPOC.m */,
 			);
 			name = Plugins;
 			sourceTree = "<group>";
@@ -328,6 +354,8 @@
 				CC7EDDB015D28BA800423A6B /* Capture.bundle in Resources */,
 				CC7EDDB215D28BA800423A6B /* Cordova.plist in Resources */,
 				CC7EDDBB15D28BA800423A6B /* MainViewController.xib in Resources */,
+				CC7EDDCA15D299B900423A6B /* CameraViewController.xib in Resources */,
+				CC7EDDD215D3962600423A6B /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +385,10 @@
 				CC7EDD8E15D28BA800423A6B /* main.m in Sources */,
 				CC7EDDB615D28BA800423A6B /* AppDelegate.m in Sources */,
 				CC7EDDB915D28BA800423A6B /* MainViewController.m in Sources */,
+				CC7EDDC915D299B900423A6B /* CameraViewController.m in Sources */,
+				CC7EDDD515D39ADB00423A6B /* ARPOC.m in Sources */,
+				CC1DCD1815D91E640094F598 /* ARCoordinate.m in Sources */,
+				CC1DCD2015D952D90094F598 /* ARGeoCoordinate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +453,8 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HealthTap";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HealthTap";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -435,7 +468,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "E1B95EC2-A71B-4191-8D4B-CBA78B9BE22A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E1B95EC2-A71B-4191-8D4B-CBA78B9BE22A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -448,14 +483,17 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HealthTap";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HealthTap";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "E1B95EC2-A71B-4191-8D4B-CBA78B9BE22A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E1B95EC2-A71B-4191-8D4B-CBA78B9BE22A";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -475,6 +513,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "ARPOC/ARPOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -504,6 +543,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "ARPOC/ARPOC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -539,6 +579,7 @@
 				CC7EDDC315D28BA800423A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
